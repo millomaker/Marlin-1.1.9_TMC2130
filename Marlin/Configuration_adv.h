@@ -1264,8 +1264,8 @@
   #define SENSORLESS_HOMING // TMC2130 only
 
   #if ENABLED(SENSORLESS_HOMING)
-    #define X_HOMING_SENSITIVITY  0
-    #define Y_HOMING_SENSITIVITY  0 
+    #define X_HOMING_SENSITIVITY  8
+    #define Y_HOMING_SENSITIVITY  8 
     //#define Z_HOMING_SENSITIVITY  8
   #endif
 
