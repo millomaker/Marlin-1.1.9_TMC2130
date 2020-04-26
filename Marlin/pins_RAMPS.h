@@ -437,7 +437,7 @@
  #define BTN_ENC 35
  #define BEEPER_PIN 37
  #define LCD_SDSS 39
- #define SD_DETECT_PIN -1
+ #define SD_DETECT_PIN 44 //pin 42 already used by CS pin of one TMC2130
  #define KILL_PIN 41
 
     #elif ENABLED(REPRAPWORLD_GRAPHICAL_LCD)
