@@ -45,7 +45,7 @@
  */
 
 #if !defined(__AVR_ATmega1280__) && !defined(__AVR_ATmega2560__)
-  #error "Oops!  Make sure you have 'Arduino Mega' selected from the 'Tools -> Boards' menu."
+   #error "Oops!  Make sure you have 'Arduino Mega' selected from the 'Tools -> Boards' menu."
 #endif
 
 #ifndef BOARD_NAME
@@ -436,8 +436,8 @@
  #define BTN_EN2 33
  #define BTN_ENC 35
  #define BEEPER_PIN 37
- #define LCD_SDSS 39
- #define SD_DETECT_PIN 44 //pin 42 already used by CS pin of one TMC2130
+ #define LCD_SDSS SDSS
+ #define SD_DETECT_PIN 49 //pin 42 already used by CS pin of one TMC2130
  #define KILL_PIN 41
 
     #elif ENABLED(REPRAPWORLD_GRAPHICAL_LCD)
